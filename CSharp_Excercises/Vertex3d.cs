@@ -33,5 +33,14 @@ namespace CSharp_Excercises
         {
             X = Y = Z = 0.0;
         }
+
+        public static Vertex3d Add(Vertex3d a, Vertex3d b)
+        {
+            Vertex3d result = new Vertex3d();
+            result.X = a.X + b.X;
+            result.Y = a.Y + b.Y;
+            result.Z = a.Z + b.Z;
+            return result;
+        }
     }
 }

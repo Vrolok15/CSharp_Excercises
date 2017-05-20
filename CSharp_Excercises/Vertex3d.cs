@@ -29,6 +29,18 @@ namespace CSharp_Excercises
             set { _z = value; }
         }
 
+        public Vertex3d()
+        {
+            _x = _y = _z = 0.0;
+        }
+
+        public Vertex3d(double x, double y, double z)
+        {
+            this._x = x;
+            this._y = y;
+            this._z = z;
+        }
+
         public void SetToOrigin()
         {
             X = Y = Z = 0.0;

@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharp_Excercises
+{
+    class AudioFile : IPlayable
+    {
+        public double CurrentTime => throw new NotImplementedException();
+
+        public void Pause()
+        {
+            Console.WriteLine("Pause");
+        }
+
+        public void Play()
+        {
+            Console.WriteLine("Play");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("Stop");
+        }
+    }
+}

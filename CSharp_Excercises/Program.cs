@@ -10,11 +10,8 @@ namespace CSharp_Excercises
     {
         static void Main(string[] args)
         {
-            AudioFile audio = new AudioFile();
-            audio.Play();
-            audio.Record();
-            audio.Stop();
-            ((IRecordable)audio).Stop();
+            Point p = new Point(10, 15);
+            Console.WriteLine(p.X +"," + p.Y);
             Console.ReadLine();
         }
     }

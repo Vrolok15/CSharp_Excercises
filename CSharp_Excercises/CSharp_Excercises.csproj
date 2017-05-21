@@ -46,6 +46,7 @@
     <Compile Include="BaseClass.cs" />
     <Compile Include="DerivedClass.cs" />
     <Compile Include="IPlayable.cs" />
+    <Compile Include="IRecordable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vertex3d.cs" />

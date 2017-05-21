@@ -8,9 +8,14 @@ namespace CSharp_Excercises
 {
     public class BaseClass
     {
-        public virtual void DoSomething()
+        public virtual void DoSomethingVirtual()
         {
-            Console.WriteLine("Base.DoSomething");
+            Console.WriteLine("Base.DoSomethingVirtual");
+        }
+
+        public void DoSomethingNonVirtual()
+        {
+            Console.WriteLine("Base.DoSomethingNonVirtual");
         }
     }
 }

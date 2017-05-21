@@ -8,10 +8,14 @@ namespace CSharp_Excercises
 {
     class DerivedClass : BaseClass
     {
-        public override void DoSomething()
+        public override void DoSomethingVirtual()
         {
-            base.DoSomething();
-            Console.WriteLine("Derived.DoSomething");
+            Console.WriteLine("Derived.DoSomethingVirtual");
+        }
+
+        public new void DoSomethingNonVirtual()
+        {
+            Console.WriteLine("Derived.DoSomethingNonVirtual");
         }
     }
 }

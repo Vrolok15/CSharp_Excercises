@@ -11,5 +11,12 @@ namespace CSharp_Excercises
         private int _a;
         protected int _b;
         public int _c;
+
+        public BaseClass(int x, int y, int z)
+        {
+            _a = x;
+            _b = y;
+            _c = z;
+        }
     }
 }

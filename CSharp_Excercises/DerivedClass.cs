@@ -9,10 +9,8 @@ namespace CSharp_Excercises
     class DerivedClass : BaseClass
     {
         public DerivedClass()
+            : base(1, 2, 3)
         {
-            // _a = 1; It's set to private in Base Class, thus not accessible
-            _b = 2;
-            _c = 3;
         }
 
         public void DoSomething()

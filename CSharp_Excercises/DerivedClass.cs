@@ -8,14 +8,14 @@ namespace CSharp_Excercises
 {
     class DerivedClass : BaseClass
     {
-        public DerivedClass()
-            : base(1, 2, 3)
+        public override Int32 MyProperty
         {
+            get { return _x * 2; }
         }
 
-        public void DoSomething()
+        public override void DoSomething()
         {
-            _b = _c = 100;
+            _x = 14;
         }
     }
 }

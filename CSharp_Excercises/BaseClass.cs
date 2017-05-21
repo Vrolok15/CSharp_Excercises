@@ -8,15 +8,19 @@ namespace CSharp_Excercises
 {
     public class BaseClass
     {
-        private int _a;
-        protected int _b;
-        public int _c;
+        protected Int32 _x;
 
-        public BaseClass(int x, int y, int z)
+        public virtual Int32 MyProperty
         {
-            _a = x;
-            _b = y;
-            _c = z;
+            get { return _x; }
         }
+
+        public virtual void DoSomething()
+        {
+            _x = 13;
+        }
+
+        
+
     }
 }

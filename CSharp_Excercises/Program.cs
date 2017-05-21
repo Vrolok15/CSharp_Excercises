@@ -10,6 +10,10 @@ namespace CSharp_Excercises
     {
         static void Main(string[] args)
         {
+            BaseClass d = new DerivedClass();
+            d.DoSomething();
+            Console.WriteLine(d.MyProperty.ToString());
+            Console.ReadLine();
         }
     }
 }
